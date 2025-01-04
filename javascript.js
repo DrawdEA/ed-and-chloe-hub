@@ -10,6 +10,6 @@ letter.addEventListener('transitionend', () => {
     if (firstTransition) {
         firstTransition = false
     } else {
-        window.location.href = 'https://www.youtube.com/watch?v=9vc2r0s6M_M&list=RD9vc2r0s6M_M&start_radio=1&ab_channel=Neobrane'
+        window.location.href = 'index.html'
     }
 })
