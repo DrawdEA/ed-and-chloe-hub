@@ -1,6 +1,6 @@
 :root{
   --primary: #fff;
-  --bg-color: rgb(5, 53, 61);
+  --bg-color: rgb(0, 0, 0);
   --bg-envelope-color: #f5edd1;
   --envelope-tab: #ecdeb8;
   --envelope-cover: #e6cfa7;
@@ -9,6 +9,7 @@
   --heart-color: rgb(252, 8, 231);
 }
 body{
+  height: 100vh;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -106,8 +107,14 @@ body{
 }
 .flap > .envelope > .letter {
   bottom: 100px;
-  transform: scale(1.5);
+  transform: scale(10);
   transition-delay: 1s;
+  color: black;
+  background-color: black;
+}
+.flap {
+  transition: transform 1s 1s;
+  transform: translateY(800px);
 }
 .flap > .heart {
   transform: rotate(90deg);
